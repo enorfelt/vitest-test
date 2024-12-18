@@ -10,6 +10,10 @@ describe('AppComponent', () => {
     }).compileComponents();
   });
 
+  it('should pass or fail', () => {
+    expect(false).toBeTruthy();
+  });
+
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
